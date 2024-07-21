@@ -1,0 +1,4 @@
+Generate three graph of dependencies
+mvn com.github.ferstl:depgraph-maven-plugin:4.0.3:aggregate -DcreateImage=false -DreduceEdges=false -Dscope=compile "-Dinclude=com.food.ordering.system*:*"
+
+if we want to see the binare three we can use Graphviz
